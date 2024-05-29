@@ -16,4 +16,4 @@ Builtin functions:
 -exit
 -pwd
 
-This was a Hive Helsinki group project that I did with www.github.com/svolain](https://github.com/tkartasl
+This was a Hive Helsinki group project that I did with www.github.com/tkartasl
