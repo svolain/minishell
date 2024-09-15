@@ -6,7 +6,7 @@
 /*   By: vsavolai <vsavolai@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/13 12:53:05 by tkartasl          #+#    #+#             */
-/*   Updated: 2024/04/30 09:52:47 by vsavolai         ###   ########.fr       */
+/*   Updated: 2024/09/15 20:32:27 by vsavolai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,6 +85,7 @@ void	export(t_cmd_args *c_a, t_env **env_table, int *flag, int i)
 	t_env	*env;
 	int		len;
 
+	(void)len;
 	*flag = 1;
 	if (c_a->args[0] == NULL)
 		export_env(env_table, flag);

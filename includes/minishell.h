@@ -6,7 +6,7 @@
 /*   By: vsavolai <vsavolai@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 13:14:19 by vsavolai          #+#    #+#             */
-/*   Updated: 2024/04/30 09:39:55 by vsavolai         ###   ########.fr       */
+/*   Updated: 2024/09/15 20:35:59 by vsavolai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,12 @@
 # include <signal.h>
 # include <sys/stat.h>
 # include <sys/types.h>
+# include <sys/wait.h>
 # include <fcntl.h>
 # include <termios.h>
 # include <dirent.h>
 
-# define PATH_MAX 1024
+# define PATHH_MAX 1024
 # define TABLE_SIZE 64
 # define DELETED_NODE 0xFFFFFFFFFFFFFFFFUL
 

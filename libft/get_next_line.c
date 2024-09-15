@@ -6,7 +6,7 @@
 /*   By: vsavolai <vsavolai@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 09:43:07 by tkartasl          #+#    #+#             */
-/*   Updated: 2024/04/03 16:59:42 by vsavolai         ###   ########.fr       */
+/*   Updated: 2024/09/15 20:36:57 by vsavolai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_read_from_fd(int fd, char *remain)
 	buffer = (char *)malloc(BUFFER_SIZE + 1);
 	if (buffer == NULL)
 		return (NULL);
-	while (bytes_read && (ft_gnl_strchr(remain, '\n')) == '\0')
+	while (bytes_read && *(ft_gnl_strchr(remain, '\n')) == '\0')
 	{
 		bytes_read = read(fd, buffer, BUFFER_SIZE);
 		if (bytes_read == -1)

@@ -13,7 +13,16 @@ Builtin functions:
 -export
 -cd
 -echo with -n flag
--exit
 -pwd
+-exit
 
 This was a Hive Helsinki group project that I did with www.github.com/tkartasl
+
+## Install & Run
+
+```
+git clone git@github.com:svolain/minishell.git
+cd minishell
+make
+./minishell
+```

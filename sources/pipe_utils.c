@@ -6,7 +6,7 @@
 /*   By: vsavolai <vsavolai@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/21 12:32:19 by vsavolai          #+#    #+#             */
-/*   Updated: 2024/04/22 12:06:28 by vsavolai         ###   ########.fr       */
+/*   Updated: 2024/09/15 20:35:25 by vsavolai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ void	null_cmd_hdoc(t_cmd_args *ca, int *flag)
 	while (temp)
 	{
 		*flag = check_h_docs(temp, 0, &filename);
-		if (flag > 0)
+		if (*flag > 0)
 			close(*flag);
 		temp = temp->next;
 	}
