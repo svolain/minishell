@@ -1,6 +1,6 @@
 Minishell
 
-Simplified shell that mimics bash shells behaviour.
+Simplified shell that mimics bash behaviour and it can be used with same commands as bash.
 
 Functionalities included:
 -redirections
