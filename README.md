@@ -2,21 +2,23 @@ Minishell
 
 Simplified shell that mimics bash behaviour and it can be used with same commands as bash.
 
+![minishell gif](gif/minishell_trimmed-ezgif.com.gif)
+
 Functionalities included:
--redirections
--pipes
--environment variables
+- redirections
+- pipes
+- environment variables
 
-Builtin functions:
--env
--unset
--export
--cd
--echo with -n flag
--pwd
--exit
+Built-in functions:
+- env
+- unset
+- export
+- cds
+- echo with -n flag
+- pwd
+- exit
 
-This was a Hive Helsinki group project that I did with www.github.com/tkartasl
+This was a Hive Helsinki group project that I did with [Tomi Kartaslammi](www.github.com/tkartasl)
 
 ## Install & Run
 
@@ -26,3 +28,5 @@ cd minishell
 make
 ./minishell
 ```
+
+For exiting the shell you can use "exit"-command
