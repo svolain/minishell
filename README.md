@@ -1,6 +1,6 @@
 Minishell
 
-Simplified shell that mimics bash behaviour and it can be used with same commands as bash.
+A simplified shell that mimics Bash behavior and supports the same commands. Please note that this program is optimized for Linux and may not be compatible with other operating systems.
 
 ![minishell gif](gif/minishell_trimmed-ezgif.com.gif)
 
