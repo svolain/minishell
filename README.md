@@ -18,7 +18,7 @@ Built-in functions:
 - pwd
 - exit
 
-This was a Hive Helsinki group project that I did with [Tomi Kartaslammi](www.github.com/tkartasl)
+This was a Hive Helsinki group project that I did with [Tomi Kartaslammi](https://github.com/tkartasl)
 
 ## Install & Run
 
